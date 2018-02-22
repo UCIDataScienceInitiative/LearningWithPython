@@ -26,3 +26,9 @@ Moreover, it has been shown that neural networks are universal approximators.
 
 * Vanishing gradient and ReLU
 * Data pre-processing
+
+## Mini project
+
+> Build a neural network in Tensorflow to predict player position using with FIFA data. 
+> Plot loss curves to detect overfitting and apply appropriate regularization.
+> Explore the effects of hyperparameters and find the "best" combination.
