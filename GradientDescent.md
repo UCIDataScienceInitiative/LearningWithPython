@@ -13,7 +13,13 @@ Training a neural network is an optimization problem: finding the optimal parame
 
 ## Backpropagation
 
-The backpropagation algorithm calculates the gradient with chain rule and trains a neural network iteratively. A computational graph allows for automatic differentiation in Tensorflow, making backpropagation straightforward.
+The backpropagation algorithm calculates the gradient with chain rule and trains a neural network iteratively. 
+
+<img src="/figures/chainrule.png" width="60%">
+
+## Computational graph
+
+A computational graph allows for automatic differentiation in Tensorflow, making backpropagation straightforward.
 
 <img src="/figures/graph.png" width="60%">
 
