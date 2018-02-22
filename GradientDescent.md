@@ -15,7 +15,7 @@ Training a neural network is an optimization problem: finding the optimal parame
 
 The backpropagation algorithm calculates the gradient with chain rule and trains a neural network iteratively. 
 
-<img src="/figures/chainrule.png" width="60%">
+<img src="/figures/chainrule.png" width="80%">
 
 ## Computational graph
 
