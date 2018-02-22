@@ -23,3 +23,6 @@ A computational graph allows for automatic differentiation in Tensorflow, making
 
 <img src="/figures/graph.png" width="60%">
 
+## Exercise 3
+
+> Implement gradient descent in Tensorflow.
