@@ -1,19 +1,33 @@
 ## Perceptron
 
-Perceptron is the model of a single neuron. 
+The perceptron models a single artificial neuron. 
 
 * Input vector
 * Weights and bias
 * Activation function
 
-<img src="/figures/perceptron.png">
+<img src="/figures/perceptron.png" width="50%">
 
-There are different activation functions. The sigmoid function has range between 0 and 1.
+There are different activation functions. 
 
-<img src="/figures/activation.png">
+<img src="/figures/activation.png" width="60%">
+
+## Exercise 0
+
+> Implement sigmoid activation.
 
 A perceptron with sigmoid activation is essentially logistic regression, a generalized linear model. It is considered linear because the decision boundary is a line.
 
-<img src="/figures/logistic.png">
+<img src="/figures/logistic.png" width="60%">
 
+A neural network typically has multiple layers that have multiple neurons.
 
+<img src="/figures/neuralnet.png" width="40%">
+
+## Exercise 1
+
+> Implement a neural network layer.
+
+## Exercise 2
+
+> Implement a forward pass through multiple layers.
