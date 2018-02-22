@@ -21,3 +21,8 @@ Moreover, it has been shown that neural networks are universal approximators.
 ## Local minima and stochastic gradient descent
 
 <img src="/figures/local.png" width="50%">
+
+## Other issues
+
+* Vanishing gradient and ReLU
+* Data pre-processing
