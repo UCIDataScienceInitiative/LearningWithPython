@@ -20,7 +20,9 @@ A perceptron with sigmoid activation is essentially logistic regression, a gener
 
 <img src="/figures/logistic.png" width="60%">
 
-A neural network typically has multiple layers that have multiple neurons.
+## Feedforward neural network
+
+A neural network has multiple layers that have multiple neurons.
 
 <img src="/figures/neuralnet.png" width="40%">
 
