@@ -12,3 +12,12 @@ Moreover, it has been shown that neural networks are universal approximators.
 
 ## Overfitting and regularization
 
+<img src="/figures/overfitting.png" width="50%">
+
+<img src="/figures/lasso.png" width="50%">
+
+<img src="/figures/dropout.png" width="50%">
+
+## Local minima and stochastic gradient descent
+
+<img src="/figures/local.png" width="50%">
