@@ -1,1 +1,1 @@
-# LearningWithPython
+# (Deep) Learning With Python
