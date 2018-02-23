@@ -61,3 +61,11 @@ Gradient descent is a first-order "local" algorithm and can be trapped in local 
 > Plot loss curves to detect overfitting and apply appropriate regularization.
 
 > Explore the effects of hyperparameters and find the "best" combination.
+
+## References
+
+A visual proof that neural nets can compute any function http://neuralnetworksanddeeplearning.com/chap4.html
+
+Why momentum really works https://distill.pub/2017/momentum/
+
+What my deep model doesn't know http://mlg.eng.cam.ac.uk/yarin/blog_3d801aa532c1ce.html
