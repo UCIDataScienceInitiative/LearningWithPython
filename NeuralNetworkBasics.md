@@ -24,6 +24,8 @@ A perceptron with sigmoid activation is essentially logistic regression, a gener
 
 <img src="/figures/logistic.png" width="60%">
 
+*Figure from The Elements of Statistical Learning by Hastie et al*
+
 ## Feedforward neural network
 
 With perceptron as a building block, a neural network has multiple layers that have multiple neurons. In a feedforward neural network, the connections are strictly from one layer to the next; there are no loops. Neural networks with loops are called recurrent neural networks (RNN). 
@@ -44,11 +46,15 @@ The loss (cost) function *L* evaluates model performance by comparing *y_pred* a
 
 <img src="/figures/landscape.png" width="60%">
 
+*Figure from Visualizing the Loss Landscape of Neural Nets by Li et al*
+
 ## Gradient descent
 
 Training a neural network is an optimization problem: finding the optimal parameters to minimize the loss function. The gradient descent algorithm attempts to find the minimum in the loss landscape by following the gradient (downward slope).
 
 <img src="/figures/descent.png" width="40%">
+
+*Figure from Wikipedia*
 
 ## Backpropagation
 
@@ -56,11 +62,16 @@ The backpropagation algorithm calculates the gradient with chain rule and trains
 
 <img src="/figures/chainrule.png" width="80%">
 
+*Figure from Wikipedia*
+
 ## Computational graph
 
 A computational graph allows for automatic differentiation in Tensorflow, making backpropagation straightforward.
 
 <img src="/figures/graph.png" width="60%">
+
+*Figure from Deep Learning by Goodfellow et al*
+
 
 ## Exercise 3
 
