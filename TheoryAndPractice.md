@@ -43,7 +43,7 @@ Gradient descent is a first-order "local" algorithm and can be trapped in local 
 * weight penalty, dropout probability
 * learning rate or step size
 * batch size
-* momentum, decay rate...
+* momentum, learning rate schedule...
 
 <img src="/figures/local.png" width="60%">
 
