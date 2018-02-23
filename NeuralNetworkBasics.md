@@ -28,7 +28,7 @@ A perceptron with sigmoid activation is essentially logistic regression, a gener
 
 ## Feedforward neural network
 
-With perceptron as a building block, a neural network has multiple layers that have multiple neurons. In a feedforward neural network, the connections are strictly from one layer to the next; there are no "loops." Neural networks with "loops" are called recurrent neural networks (RNN). To obtain the neural network output, the input vector is passed through all the layers (forward propagation/pass).
+With perceptron as a building block, a neural network has **multiple layers that have multiple neurons**. In a feedforward neural network, the connections are strictly from one layer to the next; there are no "loops." Neural networks with "loops" are called recurrent neural networks (RNN). To obtain the neural network output, the input vector is passed through all the layers (forward propagation/pass).
 
 <img src="/figures/neuralnet.png" width="40%">
 
@@ -70,7 +70,7 @@ The back-propagation algorithm calculates the gradient with chain rule recursive
 
 ## Computational graph
 
-A computational graph represents a complex function through basic operations on a graph; it allows for automatic differentiation in Tensorflow, making backpropagation straightforward.
+A computational graph represents a complex function through basic operations on a graph; it allows for automatic differentiation in Tensorflow, making back-propagation straightforward.
 
 <img src="/figures/graph.png" width="60%">
 
