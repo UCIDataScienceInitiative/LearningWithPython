@@ -38,6 +38,13 @@ Another simple way to prevent overfitting is dropout. There are many interpretat
 
 ## Local minima and stochastic gradient descent
 
+Gradient descent is a first-order "local" algorithm and can be trapped in local minima. Stochastic gradient descent only uses a batch of the data at a time and can be improved with "tricks" such as momentum and learning rate decay. Training neural networks involve tuning various hyperparameters:
+
+* weight penalty, dropout probability
+* learning rate or step size
+* batch size
+* momentum, decay rate...
+
 <img src="/figures/local.png" width="60%">
 
 *Figure from Deep Learning by Goodfellow et al*
