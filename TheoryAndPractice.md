@@ -8,7 +8,7 @@ Deeper neural networks have more expressive power.
 
 Moreover, it has been shown that neural networks are universal approximators.
 
-<img src="/figures/universal.png" width="80%">
+<img src="/figures/universal.png" width="100%">
 
 *Figure from Wikipedia*
 
