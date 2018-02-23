@@ -28,7 +28,7 @@ A perceptron with sigmoid activation is essentially logistic regression, a gener
 
 ## Feedforward neural network
 
-With perceptron as a building block, a neural network has **multiple layers that have multiple neurons**. In a feedforward neural network, the connections are strictly from one layer to the next; there are no "loops." Neural networks with "loops" are called recurrent neural networks (RNN). To obtain the neural network output, the input vector is passed through all the layers (forward propagation/pass).
+With perceptron as a building block, a neural network has **multiple layers that have multiple neurons**. In the feedforward architecture, the connections are strictly from one layer to the next; there are no "loops." To obtain the neural network output, the input vector is passed through all the layers (forward propagation/pass).
 
 <img src="/figures/neuralnet.png" width="40%">
 
@@ -44,7 +44,7 @@ With perceptron as a building block, a neural network has **multiple layers that
 
 ## Loss function
 
-The loss (cost) function *L* evaluates model performance by comparing *y_pred* against *y_true*. Since *y_pred* is a function of model parameters (weights and biases), we can imagine a loss landscape of *L(y_pred, y_true)* with respect to model parameters. The loss landscape shows values of *L* at different positions in the parameter space (combinations of different weights and biases). 
+The loss (cost) function *L* evaluates model performance by comparing *y_pred* against *y_true*. Since *y_pred* is a function of model parameters (weights and biases), we can imagine a loss landscape of *L(y_pred, y_true)* with respect to model parameters. 
 
 <img src="/figures/landscape.png" width="60%">
 
