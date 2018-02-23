@@ -1,6 +1,6 @@
 ## Perceptron
 
-The perceptron models a single artificial neuron. 
+The perceptron models a single neuron. 
 
 * Input vector
 * Weights and bias
@@ -8,9 +8,13 @@ The perceptron models a single artificial neuron.
 
 <img src="/figures/perceptron.png" width="50%">
 
-There are different activation functions. 
+*Figure from Wikipedia*
+
+There are different activation functions. Most of them map the input to between 0 and 1, where 0 means the neuron is inactive and 1 means the neuron is excited.
 
 <img src="/figures/activation.png" width="60%">
+
+*Figure from The Elements of Statistical Learning by Hastie et al*
 
 ## Exercise 0
 
@@ -22,17 +26,17 @@ A perceptron with sigmoid activation is essentially logistic regression, a gener
 
 ## Feedforward neural network
 
-A neural network has multiple layers that have multiple neurons.
+With perceptron as a building block, a neural network has multiple layers that have multiple neurons. In a feedforward neural network, the connections are strictly from one layer to the next; there are no loops. Neural networks with loops are called recurrent neural networks (RNN). 
 
 <img src="/figures/neuralnet.png" width="40%">
 
 ## Exercise 1
 
-> Implement a neural network layer.
+> Implement a neural network layer. Hint: use neuron and matrix multiplication is helpful.
 
 ## Exercise 2
 
-> Implement a forward pass through multiple layers.
+> Implement a forward pass through multiple layers. Hint: keep track of the current vector and use layer.
 
 ## Loss function
 
