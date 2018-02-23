@@ -24,13 +24,13 @@ However, deeper neural networks face the problem of overfitting.
 
 *Figure from Deep Learning by Goodfellow et al*
 
-One way to prevent overfitting is by adding a weight penalty to the loss function. The weight penalty is usually in the form of L1 or L2 norm. The amount of weight penalty to add is a hyperparameter that needs to be tuned. One can think about weight penalty from the perspective of variable selection in regression.
+One way to prevent overfitting is by adding a weight penalty to the loss function. The weight penalty is usually in the form of L1 or L2 norm. One can think about weight penalty from the perspective of variable selection in regression. 
 
 <img src="/figures/lasso.png" width="60%">
 
 *Figure from The Elements of Statistical Learning by Hastie et al*
 
-Another simple way to prevent overfitting is dropout. There are many interpretations of dropout from "robust" representation to Bayesian inference.
+Another simple way to prevent overfitting is dropout. Dropout randomly removes neurons or connections in the network during training. There are many interpretations of dropout from "robust" representation to Bayesian inference.
 
 <img src="/figures/dropout.png" width="60%">
 
@@ -38,7 +38,7 @@ Another simple way to prevent overfitting is dropout. There are many interpretat
 
 ## Local minima and stochastic gradient descent
 
-Gradient descent is a first-order "local" algorithm and can be trapped in local minima. Stochastic gradient descent only uses a batch of the data at a time and can be improved with "tricks" such as momentum and learning rate decay. Training neural networks involve tuning various hyperparameters:
+Gradient descent is a first-order "local" algorithm and can be trapped in local minima. Stochastic gradient descent only uses a batch of the data at a time and can be combined with "tricks" such as momentum and learning rate decay. Training neural networks involve tuning various hyperparameters:
 
 * weight penalty, dropout probability
 * learning rate or step size
@@ -56,7 +56,7 @@ Gradient descent is a first-order "local" algorithm and can be trapped in local 
 
 ## Mini project
 
-> Build a neural network in Tensorflow to predict player position using with FIFA data. 
+> Build a neural network in Tensorflow to predict player position with FIFA data. 
 
 > Plot loss curves to detect overfitting and apply appropriate regularization.
 
