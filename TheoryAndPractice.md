@@ -1,16 +1,16 @@
 ## Theory of neural networks
 
+It has been shown that neural networks are universal approximators.
+
+<img src="/figures/universal.png" width="100%">
+
+*Figure from Wikipedia*
+
 Deeper neural networks have more expressive power.
 
 <img src="/figures/power.png" width="60%">
 
 *Figure from Bayesian Methods for Machine Learning by Radford M. Neal*
-
-Moreover, it has been shown that neural networks are universal approximators.
-
-<img src="/figures/universal.png" width="100%">
-
-*Figure from Wikipedia*
 
 <img src="/figures/deeper.png" width="40%">
 
@@ -41,8 +41,7 @@ Another simple way to prevent overfitting is dropout. Dropout randomly removes n
 Gradient descent is a first-order "local" algorithm and can be trapped in local minima. Stochastic gradient descent only uses a batch of the data at a time and can be combined with "tricks" such as momentum and learning rate decay. Training neural networks involve tuning various hyperparameters:
 
 * weight penalty, dropout probability
-* learning rate or step size
-* batch size
+* learning rate or step size, batch size
 * momentum, learning rate schedule...
 
 <img src="/figures/local.png" width="60%">
@@ -56,7 +55,7 @@ Gradient descent is a first-order "local" algorithm and can be trapped in local 
 
 ## Mini project
 
-> Build a neural network in Tensorflow to predict player position with FIFA data. 
+> Build a neural network in Tensorflow to predict Higgs boson. 
 
 > Plot loss curves to detect overfitting and apply appropriate regularization.
 
