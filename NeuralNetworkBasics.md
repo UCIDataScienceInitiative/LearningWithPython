@@ -66,15 +66,6 @@ The back-propagation algorithm calculates the gradient with chain rule recursive
 
 *Figure from Wikipedia*
 
-## Computational graph
-
-A computational graph represents a complex function through basic operations on a graph; it allows for automatic differentiation in Tensorflow, making back-propagation straightforward.
-
-<img src="/figures/graph.png" width="60%">
-
-*Figure from Deep Learning by Goodfellow et al*
-
-
 ## Exercise 3
 
 > Implement gradient descent in Tensorflow.
