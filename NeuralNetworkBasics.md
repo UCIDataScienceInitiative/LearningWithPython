@@ -36,7 +36,7 @@ With perceptron as a building block, a neural network has **multiple layers that
 
 ## Exercise 1
 
-> Implement a neural network layer. Hint: use neuron and matrix multiplication is helpful.
+> Implement a neural network layer. Hint: look at neuron and use matrix multiplication.
 
 ## Exercise 2
 
