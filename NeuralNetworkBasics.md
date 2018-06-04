@@ -36,7 +36,7 @@ With perceptron as a building block, a neural network has **multiple layers that
 
 ## Exercise 1
 
-> Implement a neural network layer. Hint: use neuron and matrix multiplication is helpful.
+> Implement a neural network layer. Hint: look at neuron and use matrix multiplication.
 
 ## Exercise 2
 
@@ -65,15 +65,6 @@ The back-propagation algorithm calculates the gradient with chain rule recursive
 <img src="/figures/chainrule.png" width="80%">
 
 *Figure from Wikipedia*
-
-## Computational graph
-
-A computational graph represents a complex function through basic operations on a graph; it allows for automatic differentiation in Tensorflow, making back-propagation straightforward.
-
-<img src="/figures/graph.png" width="60%">
-
-*Figure from Deep Learning by Goodfellow et al*
-
 
 ## Exercise 3
 
